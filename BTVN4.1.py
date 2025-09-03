@@ -1,4 +1,6 @@
-# Ma hoa bng thuat toan CAESAR
+# Ma hoa bang thuat toan CAESAR
+# k=23, text:PHUONG
+# Kết quả mã hóa:MERLKD
 def caesar_encrypt(text, k):
     result = ""
     for c in text:
@@ -16,4 +18,5 @@ if __name__ == "__main__":
     k = int(input("Nhap khoa k: "))
     encrypted = caesar_encrypt(text, k)
     print("Chuoi da ma hoa:", encrypted)
+
   
